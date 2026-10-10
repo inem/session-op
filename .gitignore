@@ -1,0 +1,20 @@
+# Operators & secrets (never commit frozen operator payloads or personal chat transcripts)
+*.json
+!examples/*.json
+*.log
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
